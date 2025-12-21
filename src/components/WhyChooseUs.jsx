@@ -30,7 +30,10 @@ const features = [
 
 export default function WhyChooseUs() {
   return (
-    <section className="bg-slate-50 py-24 relative overflow-hidden">
+    <section
+      id="why-choose-us"
+      className="bg-slate-50 py-24 relative overflow-hidden"
+    >
       {/* Ornamen Latar Belakang Modern */}
       <div className="absolute top-0 left-0 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-blue-100 rounded-full blur-3xl opacity-50" />
 

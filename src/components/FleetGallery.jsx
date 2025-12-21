@@ -27,7 +27,7 @@ const fleets = [
 
 export default function FleetGallery() {
   return (
-    <section className="bg-white py-24">
+    <section className="bg-white py-24" id="armada">
       <div className="mx-auto max-w-7xl px-6">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
           <div>

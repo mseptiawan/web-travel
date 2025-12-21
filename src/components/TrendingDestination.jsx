@@ -29,7 +29,7 @@ const destinations = [
 
 export default function TrendingDestination() {
   return (
-    <section className="mx-auto max-w-7xl px-6 py-20">
+    <section className="mx-auto max-w-7xl px-6 py-20" id="destinasi">
       <h2 className="mb-10 text-center text-3xl font-bold">
         Destinasi Populer
       </h2>
