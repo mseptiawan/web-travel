@@ -3,7 +3,7 @@ import { Users, Briefcase, ShieldCheck } from "lucide-react";
 
 const fleets = [
   {
-    name: "Kelas Kel (Avanza)",
+    name: "Kelas Ke (Avanza)",
     img: "/images/armada/avanza.avif",
     capacity: "6-7 Penumpang",
     luggage: "2 Bagasi Besar",
