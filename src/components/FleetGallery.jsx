@@ -11,7 +11,7 @@ const fleets = [
     price: "Mulai Rp 350rb",
   },
   {
-    name: "Kelas Eksekutif (Expa))",
+    name: "Kelas Eksekutif (Exp))",
     img: "/images/armada/expander.avif",
     capacity: "6 Penumpang",
     luggage: "3 Bagasi Besar",
