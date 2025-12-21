@@ -34,7 +34,8 @@ export default function Navbar() {
         {/* Logo */}
         <a href="#" className="flex items-center gap-2">
           <div className="h-8 w-8 bg-blue-600 rounded-lg flex items-center justify-center">
-            <span className="text-white font-bold text-xl">T</span>
+            {/* <span className="text-white font-bold text-xl">T</span> */}
+            <img src="/logo.jpeg" alt="" className="w-16 h-8" />
           </div>
           <h1
             className={`text-xl font-bold tracking-tight ${

@@ -7,23 +7,23 @@ const destinations = [
   },
   {
     name: "Raja Ampat",
-    img: "/images/destinations/images.jfif",
+    img: "/images/destinations/rajaempat.webp",
   },
   {
-    name: "Labuan Bajo",
+    name: "Jakarta",
     img: "/images/destinations/jakarta-monas.jpg",
   },
   {
-    name: "Yogyakarta",
+    name: "Jambi",
     img: "/images/destinations/jambi.jpg",
   },
   {
-    name: "Lombok",
-    img: "/images/destinations/lampung00.jpg",
+    name: "Pagaralam",
+    img: "/images/destinations/pagaralam.jpeg",
   },
   {
-    name: "Bromo",
-    img: "/images/destinations/medan.jpg",
+    name: "Bandung",
+    img: "/images/destinations/bandung.avif",
   },
 ];
 

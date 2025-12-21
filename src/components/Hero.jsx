@@ -7,7 +7,7 @@ export default function Hero() {
       {/* Background Image Container */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/images/destinations/jakarta-monas.jpg"
+          src="/images/destinations/ampera.png"
           alt="Jelajahi Indonesia"
           // object-cover memastikan gambar memenuhi layar tanpa distorsi
           // object-center memastikan fokus gambar tetap di tengah

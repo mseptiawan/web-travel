@@ -4,6 +4,7 @@ import WhyChooseUs from "./components/WhyChooseUs";
 import FleetGallery from "./components/FleetGallery";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import TravelPackages from "./components/TravelPackages";
 
 export default function App() {
   return (
@@ -12,7 +13,8 @@ export default function App() {
       <Hero />
       <TrendingDestination />
       <WhyChooseUs />
-      <FleetGallery />
+      {/* <FleetGallery /> */}
+      <TravelPackages />
       <Footer />
     </>
   );
