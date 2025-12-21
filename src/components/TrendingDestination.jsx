@@ -1,16 +1,29 @@
 // src/components/TrendingDestination.jsx
+
 const destinations = [
   {
     name: "Bali",
-    img: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    img: "/images/destinations/bali.jpg",
   },
   {
     name: "Raja Ampat",
-    img: "https://images.unsplash.com/photo-1589394815804-964ed0be2eb5",
+    img: "/images/destinations/images.jfif",
   },
   {
     name: "Labuan Bajo",
-    img: "https://images.unsplash.com/photo-1611302457430-3f70f2cbb8c2",
+    img: "/images/destinations/jakarta-monas.jpg",
+  },
+  {
+    name: "Yogyakarta",
+    img: "/images/destinations/jambi.jpg",
+  },
+  {
+    name: "Lombok",
+    img: "/images/destinations/lampung00.jpg",
+  },
+  {
+    name: "Bromo",
+    img: "/images/destinations/medan.jpg",
   },
 ];
 
@@ -21,7 +34,9 @@ export default function TrendingDestination() {
         Destinasi Populer
       </h2>
 
-      <div className="grid gap-6 md:grid-cols-3">
+      {/* Mengubah md:grid-cols-3 menjadi grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 
+          agar tampilan lebih responsif untuk 6 item */}
+      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {destinations.map((item) => (
           <div
             key={item.name}
@@ -30,10 +45,11 @@ export default function TrendingDestination() {
             <img
               src={item.img}
               alt={item.name}
-              className="h-64 w-full object-cover transition duration-500 group-hover:scale-110"
+              className="h-72 w-full object-cover transition duration-500 group-hover:scale-110"
             />
-            <div className="absolute inset-0 bg-black/30 flex items-end p-4">
-              <h3 className="text-xl font-semibold text-white">{item.name}</h3>
+            {/* Overlay Gradient agar teks lebih mudah dibaca */}
+            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex items-end p-6">
+              <h3 className="text-xl font-bold text-white">{item.name}</h3>
             </div>
           </div>
         ))}
