@@ -50,7 +50,7 @@ export default function Hero() {
             </button>
 
             <a
-              href="https://wa.me/6289635463544"
+              href="https://wa.me/628117312056"
               className="flex items-center justify-center gap-2 rounded-xl bg-white/10 px-8 py-4 font-bold text-white backdrop-blur-md border border-white/20 transition-all hover:bg-white/20"
             >
               <Phone className="w-5 h-5" />

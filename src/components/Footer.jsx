@@ -26,7 +26,7 @@ export default function Footer() {
           {/* Brand & About */}
           <div className="space-y-6">
             <h2 className="text-2xl font-bold text-white tracking-tight">
-              Travel<span className="text-blue-500">Kita</span>
+              Wondir<span className="text-blue-500">Trip</span>
             </h2>
             <p className="text-sm leading-relaxed">
               Solusi transportasi terpercaya untuk perjalanan wisata, bisnis,
@@ -64,7 +64,7 @@ export default function Footer() {
               <li className="flex items-start gap-3 group">
                 <Phone className="w-5 h-5 text-blue-500 shrink-0" />
                 <span className="text-sm group-hover:text-white transition-colors">
-                  0896-3546-3544
+                  0811-7312-056
                 </span>
               </li>
               <li className="flex items-start gap-3 group">
@@ -76,7 +76,7 @@ export default function Footer() {
               <li className="flex items-start gap-3 group">
                 <MapPin className="w-5 h-5 text-blue-500 shrink-0" />
                 <span className="text-sm group-hover:text-white transition-colors">
-                  Jl. Raya Utama No. 123, Jakarta Selatan
+                  Jl. Wondirtrip No. 123, Palembang Sumatera Selatan{" "}
                 </span>
               </li>
             </ul>
@@ -127,7 +127,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="mt-20 border-t border-slate-900 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs">
-          <p>© {new Date().getFullYear()} TravelKita. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Wondirtrip. All rights reserved.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-white transition-colors">
               Privacy Policy

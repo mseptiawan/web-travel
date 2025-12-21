@@ -19,7 +19,7 @@ export default function Navbar() {
     { name: "Home", href: "#" },
     { name: "Destinasi", href: "#destinasi" },
     { name: "Keunggulan", href: "#why-choose-us" },
-    { name: "Armada", href: "#armada" },
+    { name: "Paket Wisata", href: "#paket-wisata" },
   ];
 
   return (
@@ -42,7 +42,7 @@ export default function Navbar() {
               scrolled ? "text-slate-900" : "text-white"
             }`}
           >
-            Travel<span className="text-blue-500">Kita</span>
+            Wondir<span className="text-blue-500">Trip</span>
           </h1>
         </a>
 
@@ -103,7 +103,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="https://wa.me/6289635463544"
+            href="https://wa.me/628117312056"
             className="mt-2 flex items-center justify-center gap-2 rounded-xl bg-blue-600 py-4 text-sm font-bold text-white shadow-lg"
           >
             <Phone className="w-4 h-4" />
