@@ -37,9 +37,10 @@ export default function Hero() {
           </h1>
 
           <p className="mt-6 max-w-xl text-base text-slate-200 md:text-xl mx-auto md:mx-0">
-            Sewa mobil lepas kunci atau dengan driver profesional. Armada
-            bersih, terawat, dan siap menemani petualangan Anda di seluruh
-            Indonesia.
+            "Eksplorasi destinasi terbaik Indonesia tanpa ribet. Nikmati
+            kemudahan akses transportasi premium dan paket tur terkurasi yang
+            dirancang khusus untuk kenyamanan dan keamanan perjalanan Anda serta
+            keluarga."
           </p>
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:justify-center md:justify-start">
