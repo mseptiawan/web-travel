@@ -64,7 +64,7 @@ export default function Navbar() {
         {/* CTA Button */}
         <div className="hidden md:flex items-center gap-4">
           <a
-            href="https://wa.me/6289635463544"
+            href="https://wa.me/628117312056"
             className="flex items-center gap-2 rounded-full bg-blue-600 px-6 py-2.5 text-sm font-bold text-white shadow-lg shadow-blue-600/20 hover:bg-blue-700 hover:shadow-blue-600/40 transition-all active:scale-95"
           >
             <Phone className="w-4 h-4" />

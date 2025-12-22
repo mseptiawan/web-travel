@@ -35,17 +35,12 @@ export default function Footer() {
             </p>
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://www.instagram.com/wondirtrip?igsh=MWlzaXRsd2ltZmNubA%3D%3D&utm_source=qr"
                 className="p-2 bg-slate-900 rounded-full hover:bg-blue-600 transition-colors"
               >
                 <Instagram className="w-5 h-5 text-white" />
               </a>
-              <a
-                href="#"
-                className="p-2 bg-slate-900 rounded-full hover:bg-blue-600 transition-colors"
-              >
-                <Youtube className="w-5 h-5 text-white" />
-              </a>
+
               <a
                 href="#"
                 className="p-2 bg-slate-900 rounded-full hover:bg-blue-600 transition-colors"
@@ -76,7 +71,7 @@ export default function Footer() {
               <li className="flex items-start gap-3 group">
                 <MapPin className="w-5 h-5 text-blue-500 shrink-0" />
                 <span className="text-sm group-hover:text-white transition-colors">
-                  Jl. Wondirtrip No. 123, Palembang Sumatera Selatan{" "}
+                  JL. Jaya Wijaya No.05, Palembang Sumatera Selatan{" "}
                 </span>
               </li>
             </ul>

@@ -44,10 +44,13 @@ export default function Hero() {
           </p>
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:justify-center md:justify-start">
-            <button className="flex items-center justify-center gap-2 rounded-xl bg-blue-600 px-8 py-4 font-bold text-white transition-all hover:bg-blue-700 active:scale-95 shadow-lg shadow-blue-600/30">
+            <a
+              href="https://wa.me/628117312056"
+              className="flex items-center justify-center gap-2 rounded-xl bg-blue-600 px-8 py-4 font-bold text-white transition-all hover:bg-blue-700 active:scale-95 shadow-lg shadow-blue-600/30"
+            >
               Booking Sekarang
               <ArrowRight className="w-5 h-5" />
-            </button>
+            </a>
 
             <a
               href="https://wa.me/628117312056"
